@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {% if title %}
+        {{ title }}
+        {% else %}
+        小熊有话说
+        {% endif %}
+    </title>
+    {% block header %}
+    <link rel='stylesheet' href='/css/style.css' />
+    {% endblock %}
+</head>
+<body>
+<!--正文板块-->
+{% block content %}
+<p>some words from layout page</p>
+{% endblock content %}
+<!--页脚-->
+{% block footer % }
+{% endblock footer %}
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<!--脚本部分-->
+{% block scripts %}
+{% endblock scripts %}
+</body>
+</html>
