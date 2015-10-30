@@ -1,0 +1,13 @@
+{% extends './../_layout.html' %}
+
+{% block content %}
+<div class="container">
+    <p>{{ errorMessage }}</p>
+    <form action="/account/login?returnUrl={{ returnUrl }}" method="post">
+        <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+        <input type="text" placeholder="用户名/邮箱" name="userName">
+        <input type="password" placeholder="密码" name="pwd">
+        <input type="submit" value="确定">
+    </form>
+</div>
+{% endblock %}

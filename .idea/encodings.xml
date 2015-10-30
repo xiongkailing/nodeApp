@@ -2,7 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/User.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/account.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/_layout.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/account/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/account/register.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/index.html" charset="UTF-8" />
   </component>
 </project>

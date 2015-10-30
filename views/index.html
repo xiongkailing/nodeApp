@@ -3,5 +3,14 @@
 {% parent %}
 <h1>{{ title }}</h1>
 <p>Welcome to {{ title }}</p>
-{% endblock content %}
+<a href="/account/login"> 去登陆 </a>
+<a href="/account/register">去注册</a>
+{% endblock %}
 
+{% block scripts %}
+<script type="text/javascript">
+    $(function(){
+        console.log(111);
+    });
+</script>
+{% endblock %}
